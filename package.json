@@ -1,0 +1,9 @@
+{
+  "name": "priority-rescue",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "dev": "vite", "dev:api": "node backend/server.js", "build": "vite build", "test": "node --test" },
+  "dependencies": { "dotenv": "^16.4.7", "express": "^4.21.2", "mssql": "^11.0.1", "react": "^18.3.1", "react-dom": "^18.3.1", "lucide-react": "^0.468.0" },
+  "devDependencies": { "@vitejs/plugin-react": "^4.3.4", "vite": "^6.0.5" }
+}
